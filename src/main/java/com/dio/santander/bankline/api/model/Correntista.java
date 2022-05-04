@@ -1,4 +1,4 @@
-package com.dio.santander.bankline.model;
+package com.dio.santander.bankline.api.model;
 
 import javax.persistence.Column;
 import javax.persistence.Embedded;
@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "tab_correntista")
+@Table(name = "table_correntista")
 public class Correntista {
 	
 	@Id
